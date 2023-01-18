@@ -1,0 +1,687 @@
+local username = game:GetService("Players").LocalPlayer.Name
+
+
+-- Instances
+
+local Script_Scam = Instance.new("ScreenGui")
+local Scripts = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Buttons = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local S = Instance.new("TextLabel")
+local _1 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Trade_Scam = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Both_Scam = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local _3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Instant_Aceept = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local _4 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Info = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local _3_2 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local BothScam = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Scam = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Info_2 = Instance.new("TextLabel")
+local Info2 = Instance.new("TextLabel")
+local ScriptInfo = Instance.new("TextLabel")
+local War = Instance.new("TextLabel")
+local _1_2 = Instance.new("TextLabel")
+local _2_2 = Instance.new("TextLabel")
+local _3_3 = Instance.new("TextLabel")
+local TradeScam = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Info_3 = Instance.new("TextLabel")
+local Info2_2 = Instance.new("TextLabel")
+local ScriptInfo_2 = Instance.new("TextLabel")
+local On = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local OFF = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Info_4 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ScriptInfo_3 = Instance.new("TextLabel")
+local ScriptInfo_4 = Instance.new("TextLabel")
+local ScriptInfo_5 = Instance.new("TextLabel")
+local ScriptInfo_6 = Instance.new("TextLabel")
+local _2_3 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local _2_4 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local _2_5 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local ScriptInfo_7 = Instance.new("TextLabel")
+local _2_6 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local _2_7 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local IstantAccept = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local Accept = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Info_5 = Instance.new("TextLabel")
+local Info2_3 = Instance.new("TextLabel")
+local ScriptInfo_8 = Instance.new("TextLabel")
+local Key = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local Password = Instance.new("TextBox")
+local UICorner_26 = Instance.new("UICorner")
+local xd = Instance.new("TextLabel")
+local Check = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Checker = Instance.new("TextLabel")
+local Loading = Instance.new("Frame")
+local Loading_2 = Instance.new("TextLabel")
+local _1_3 = Instance.new("Frame")
+local _2_8 = Instance.new("Frame")
+local User = Instance.new("TextLabel")
+
+-- Properties
+
+Script_Scam.Name = "Script_Scam"
+Script_Scam.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Script_Scam.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Script_Scam.IgnoreGuiInset = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Script_Scam
+Scripts.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Scripts.Position = UDim2.new(0.258825928, 0, 0.131457433, 0)
+Scripts.Size = UDim2.new(0, 582, 0, 404)
+Scripts.Visible = false
+Scripts.Active = false
+Scripts.Draggable = true
+
+UICorner.Parent = Scripts
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Scripts
+Buttons.BackgroundColor3 = Color3.new(0.454902, 0.454902, 0.454902)
+Buttons.Position = UDim2.new(-0.0011316149, 0, -0.000296413316, 0)
+Buttons.Size = UDim2.new(0, 107, 0, 404)
+
+UICorner_2.Parent = Buttons
+
+S.Name = "S"
+S.Parent = Buttons
+S.BackgroundColor3 = Color3.new(1, 1, 1)
+S.BackgroundTransparency = 1
+S.Size = UDim2.new(0, 107, 0, 50)
+S.Font = Enum.Font.Bodoni
+S.Text = "Znex"
+S.TextColor3 = Color3.new(1, 1, 1)
+S.TextSize = 39
+
+_1.Name = "1"
+_1.Parent = Buttons
+_1.BackgroundColor3 = Color3.new(1, 1, 1)
+_1.Position = UDim2.new(0, 0, 0.123762377, 0)
+_1.Size = UDim2.new(0, 107, 0, 11)
+
+UICorner_3.Parent = _1
+
+Trade_Scam.Name = "Trade_Scam"
+Trade_Scam.Parent = Buttons
+Trade_Scam.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Trade_Scam.Position = UDim2.new(0, 0, 0.185643569, 0)
+Trade_Scam.Size = UDim2.new(0, 101, 0, 50)
+Trade_Scam.Font = Enum.Font.Bangers
+Trade_Scam.Text = "Trade Scam"
+Trade_Scam.TextColor3 = Color3.new(1, 1, 1)
+Trade_Scam.TextSize = 25
+Trade_Scam.MouseButton1Down:Connect(function()
+	TradeScam.Visible = true
+	Info_4.Visible = false
+	BothScam.Visible = false
+	IstantAccept.Visible = false
+end)
+
+UICorner_4.Parent = Trade_Scam
+UICorner_4.CornerRadius = UDim.new(0, 9)
+
+_2.Name = "2"
+_2.Parent = Buttons
+_2.BackgroundColor3 = Color3.new(1, 1, 1)
+_2.Position = UDim2.new(0, 0, 0.34653464, 0)
+_2.Size = UDim2.new(0, 107, 0, 11)
+
+UICorner_5.Parent = _2
+
+Both_Scam.Name = "Both_Scam"
+Both_Scam.Parent = Buttons
+Both_Scam.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Both_Scam.Position = UDim2.new(0, 0, 0.418316841, 0)
+Both_Scam.Size = UDim2.new(0, 101, 0, 50)
+Both_Scam.Font = Enum.Font.Bangers
+Both_Scam.Text = "Both Scam"
+Both_Scam.TextColor3 = Color3.new(1, 1, 1)
+Both_Scam.TextSize = 25
+Both_Scam.MouseButton1Down:Connect(function()
+	TradeScam.Visible = false
+	Info_4.Visible = false
+	BothScam.Visible = true
+	IstantAccept.Visible = false
+end)
+
+UICorner_6.Parent = Both_Scam
+UICorner_6.CornerRadius = UDim.new(0, 9)
+
+_3.Name = "3"
+_3.Parent = Buttons
+_3.BackgroundColor3 = Color3.new(1, 1, 1)
+_3.Position = UDim2.new(0, 0, 0.579207957, 0)
+_3.Size = UDim2.new(0, 107, 0, 11)
+
+UICorner_7.Parent = _3
+
+Instant_Aceept.Name = "Instant_Aceept"
+Instant_Aceept.Parent = Buttons
+Instant_Aceept.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Instant_Aceept.Position = UDim2.new(0, 0, 0.655940533, 0)
+Instant_Aceept.Size = UDim2.new(0, 101, 0, 50)
+Instant_Aceept.Font = Enum.Font.Bangers
+Instant_Aceept.Text = "Insane Accept"
+Instant_Aceept.TextColor3 = Color3.new(1, 1, 1)
+Instant_Aceept.TextSize = 20
+Instant_Aceept.MouseButton1Down:Connect(function()
+	TradeScam.Visible = false
+	Info_4.Visible = false
+	BothScam.Visible = false
+	IstantAccept.Visible = true
+end)
+
+UICorner_8.Parent = Instant_Aceept
+UICorner_8.CornerRadius = UDim.new(0, 9)
+
+_4.Name = "4"
+_4.Parent = Buttons
+_4.BackgroundColor3 = Color3.new(1, 1, 1)
+_4.Position = UDim2.new(0, 0, 0.809405982, 0)
+_4.Size = UDim2.new(0, 107, 0, 11)
+
+UICorner_9.Parent = _4
+
+Info.Name = "Info"
+Info.Parent = Buttons
+Info.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Info.Position = UDim2.new(0, 0, 0.876237571, 0)
+Info.Size = UDim2.new(0, 101, 0, 50)
+Info.Font = Enum.Font.Bangers
+Info.Text = "Info"
+Info.TextColor3 = Color3.new(1, 1, 1)
+Info.TextSize = 20
+Info.MouseButton1Down:Connect(function()
+	TradeScam.Visible = false
+	Info_4.Visible = true
+	BothScam.Visible = false
+	IstantAccept.Visible = false
+end)
+
+UICorner_10.Parent = Info
+UICorner_10.CornerRadius = UDim.new(0, 9)
+
+_3_2.Name = "3"
+_3_2.Parent = Buttons
+_3_2.BackgroundColor3 = Color3.new(1, 1, 1)
+_3_2.Position = UDim2.new(0.943925261, 0, 0.000296413316, 0)
+_3_2.Size = UDim2.new(0, 6, 0, 404)
+
+UICorner_11.Parent = _3_2
+
+BothScam.Name = "Both Scam"
+BothScam.Parent = Scripts
+BothScam.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+BothScam.Position = UDim2.new(0.182717189, 0, -0.000296413316, 0)
+BothScam.Size = UDim2.new(0, 474, 0, 404)
+BothScam.Visible = false
+
+UICorner_12.Parent = BothScam
+
+Scam.Name = "Scam"
+Scam.Parent = BothScam
+Scam.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+Scam.Position = UDim2.new(0.217299581, 0, 0.43069306, 0)
+Scam.Size = UDim2.new(0, 240, 0, 39)
+Scam.Font = Enum.Font.SourceSans
+Scam.Text = "Scam"
+Scam.TextColor3 = Color3.new(0, 0, 0)
+Scam.TextSize = 28
+
+UICorner_13.Parent = Scam
+UICorner_13.CornerRadius = UDim.new(1, 8)
+
+Info_2.Name = "Info"
+Info_2.Parent = BothScam
+Info_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Info_2.BackgroundTransparency = 1
+Info_2.Position = UDim2.new(0.289029539, 0, 0.25, 0)
+Info_2.Size = UDim2.new(0, 200, 0, 50)
+Info_2.Font = Enum.Font.Highway
+Info_2.Text = "Beta, Pls  Report Bugs In ZNX#8709"
+Info_2.TextColor3 = Color3.new(1, 1, 1)
+Info_2.TextSize = 32
+
+Info2.Name = "Info2"
+Info2.Parent = BothScam
+Info2.BackgroundColor3 = Color3.new(1, 1, 1)
+Info2.BackgroundTransparency = 1
+Info2.Position = UDim2.new(0.810126603, 0, 0.876237631, 0)
+Info2.Size = UDim2.new(0, 84, 0, 50)
+Info2.Font = Enum.Font.SourceSans
+Info2.Text = "ZNX#8709"
+Info2.TextColor3 = Color3.new(1, 1, 1)
+Info2.TextSize = 25
+
+ScriptInfo.Name = "ScriptInfo"
+ScriptInfo.Parent = BothScam
+ScriptInfo.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo.BackgroundTransparency = 1
+ScriptInfo.Position = UDim2.new(0.381856561, 0, 0, 0)
+ScriptInfo.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo.Font = Enum.Font.DenkOne
+ScriptInfo.Text = "Both Scam"
+ScriptInfo.TextColor3 = Color3.new(1, 1, 1)
+ScriptInfo.TextSize = 25
+
+War.Name = "War"
+War.Parent = BothScam
+War.BackgroundColor3 = Color3.new(1, 1, 1)
+War.BackgroundTransparency = 1
+War.Position = UDim2.new(0.259493679, 0, 0.579207897, 0)
+War.Size = UDim2.new(0, 200, 0, 50)
+War.Font = Enum.Font.Bangers
+War.Text = "Waring"
+War.TextColor3 = Color3.new(0.666667, 0, 0)
+War.TextSize = 18
+
+_1_2.Name = "1"
+_1_2.Parent = BothScam
+_1_2.BackgroundColor3 = Color3.new(1, 1, 1)
+_1_2.BackgroundTransparency = 1
+_1_2.Position = UDim2.new(0.259493679, 0, 0.631188095, 0)
+_1_2.Size = UDim2.new(0, 200, 0, 50)
+_1_2.Font = Enum.Font.Bangers
+_1_2.Text = "Click In Both Pet 5 Times"
+_1_2.TextColor3 = Color3.new(0.305882, 1, 0.054902)
+_1_2.TextSize = 18
+
+_2_2.Name = "2"
+_2_2.Parent = BothScam
+_2_2.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_2.BackgroundTransparency = 1
+_2_2.Position = UDim2.new(0.259493679, 0, 0.685643554, 0)
+_2_2.Size = UDim2.new(0, 200, 0, 50)
+_2_2.Font = Enum.Font.Bangers
+_2_2.Text = "Click Scam"
+_2_2.TextColor3 = Color3.new(0.305882, 1, 0.054902)
+_2_2.TextSize = 18
+
+_3_3.Name = "3"
+_3_3.Parent = BothScam
+_3_3.BackgroundColor3 = Color3.new(1, 1, 1)
+_3_3.BackgroundTransparency = 1
+_3_3.Position = UDim2.new(0.259493679, 0, 0.735148549, 0)
+_3_3.Size = UDim2.new(0, 200, 0, 50)
+_3_3.Font = Enum.Font.Bangers
+_3_3.Text = "Buy The Pet You Need 0 Diamond"
+_3_3.TextColor3 = Color3.new(0.305882, 1, 0.054902)
+_3_3.TextSize = 18
+
+TradeScam.Name = "Trade Scam"
+TradeScam.Parent = Scripts
+TradeScam.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+TradeScam.Position = UDim2.new(0.182717189, 0, -0.000296413316, 0)
+TradeScam.Size = UDim2.new(0, 474, 0, 404)
+TradeScam.Visible = false
+
+UICorner_14.Parent = TradeScam
+
+Info_3.Name = "Info"
+Info_3.Parent = TradeScam
+Info_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Info_3.BackgroundTransparency = 1
+Info_3.Position = UDim2.new(0.289029539, 0, 0.25, 0)
+Info_3.Size = UDim2.new(0, 200, 0, 50)
+Info_3.Font = Enum.Font.Highway
+Info_3.Text = "Beta, Pls  Report Bugs In ZNX#8709"
+Info_3.TextColor3 = Color3.new(1, 1, 1)
+Info_3.TextSize = 32
+
+Info2_2.Name = "Info2"
+Info2_2.Parent = TradeScam
+Info2_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Info2_2.BackgroundTransparency = 1
+Info2_2.Position = UDim2.new(0.810126603, 0, 0.876237631, 0)
+Info2_2.Size = UDim2.new(0, 84, 0, 50)
+Info2_2.Font = Enum.Font.SourceSans
+Info2_2.Text = "ZNX#8709"
+Info2_2.TextColor3 = Color3.new(1, 1, 1)
+Info2_2.TextSize = 25
+
+ScriptInfo_2.Name = "ScriptInfo"
+ScriptInfo_2.Parent = TradeScam
+ScriptInfo_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_2.BackgroundTransparency = 1
+ScriptInfo_2.Position = UDim2.new(0.381856561, 0, 0, 0)
+ScriptInfo_2.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_2.Font = Enum.Font.DenkOne
+ScriptInfo_2.Text = "Trade Scam"
+ScriptInfo_2.TextColor3 = Color3.new(1, 1, 1)
+ScriptInfo_2.TextSize = 25
+
+On.Name = "On"
+On.Parent = TradeScam
+On.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+On.Position = UDim2.new(0.113924049, 0, 0.43069306, 0)
+On.Size = UDim2.new(0, 99, 0, 39)
+On.Font = Enum.Font.SourceSans
+On.Text = "On"
+On.TextColor3 = Color3.new(0, 0, 0)
+On.TextSize = 28
+
+UICorner_15.Parent = On
+UICorner_15.CornerRadius = UDim.new(1, 8)
+
+OFF.Name = "OFF"
+OFF.Parent = TradeScam
+OFF.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+OFF.Position = UDim2.new(0.645569623, 0, 0.43069306, 0)
+OFF.Size = UDim2.new(0, 99, 0, 39)
+OFF.Font = Enum.Font.SourceSans
+OFF.Text = "Off"
+OFF.TextColor3 = Color3.new(0, 0, 0)
+OFF.TextSize = 28
+
+UICorner_16.Parent = OFF
+UICorner_16.CornerRadius = UDim.new(1, 8)
+
+Info_4.Name = "Info"
+Info_4.Parent = Scripts
+Info_4.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Info_4.Position = UDim2.new(0.184435397, 0, -0.00277166069, 0)
+Info_4.Size = UDim2.new(0, 474, 0, 404)
+
+UICorner_17.Parent = Info_4
+
+ScriptInfo_3.Name = "ScriptInfo"
+ScriptInfo_3.Parent = Info_4
+ScriptInfo_3.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_3.BackgroundTransparency = 1
+ScriptInfo_3.Position = UDim2.new(0.381856561, 0, 0, 0)
+ScriptInfo_3.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_3.Font = Enum.Font.DenkOne
+ScriptInfo_3.Text = "Info : V1"
+ScriptInfo_3.TextColor3 = Color3.new(0, 1, 0)
+ScriptInfo_3.TextSize = 25
+
+ScriptInfo_4.Name = "ScriptInfo"
+ScriptInfo_4.Parent = Info_4
+ScriptInfo_4.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_4.BackgroundTransparency = 1
+ScriptInfo_4.Position = UDim2.new(0.381856591, 0, 0.188118801, 0)
+ScriptInfo_4.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_4.Font = Enum.Font.DenkOne
+ScriptInfo_4.Text = "Owner : Znex Plays"
+ScriptInfo_4.TextColor3 = Color3.new(0.333333, 1, 1)
+ScriptInfo_4.TextSize = 25
+
+ScriptInfo_5.Name = "ScriptInfo"
+ScriptInfo_5.Parent = Info_4
+ScriptInfo_5.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_5.BackgroundTransparency = 1
+ScriptInfo_5.Position = UDim2.new(0.356540114, 0, 0.396039605, 0)
+ScriptInfo_5.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_5.Font = Enum.Font.DenkOne
+ScriptInfo_5.Text = "Discord : ZNX#8709"
+ScriptInfo_5.TextColor3 = Color3.new(0, 1, 1)
+ScriptInfo_5.TextSize = 25
+
+ScriptInfo_6.Name = "ScriptInfo"
+ScriptInfo_6.Parent = Info_4
+ScriptInfo_6.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_6.BackgroundTransparency = 1
+ScriptInfo_6.Position = UDim2.new(0.402953625, 0, 0.581683218, 0)
+ScriptInfo_6.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_6.Font = Enum.Font.DenkOne
+ScriptInfo_6.Text = "Server : https://discord.io/ZNX-SCRIPTS"
+ScriptInfo_6.TextColor3 = Color3.new(0, 1, 1)
+ScriptInfo_6.TextSize = 25
+
+_2_3.Name = "2"
+_2_3.Parent = Info_4
+_2_3.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_3.Position = UDim2.new(-0.00421947334, 0, 0.346534669, 0)
+_2_3.Size = UDim2.new(0, 475, 0, 11)
+
+UICorner_18.Parent = _2_3
+
+_2_4.Name = "2"
+_2_4.Parent = Info_4
+_2_4.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_4.Position = UDim2.new(-0.0168776363, 0, 0.544554472, 0)
+_2_4.Size = UDim2.new(0, 482, 0, 7)
+
+UICorner_19.Parent = _2_4
+
+_2_5.Name = "2"
+_2_5.Parent = Info_4
+_2_5.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_5.Position = UDim2.new(-0.0168776363, 0, 0.752475321, 0)
+_2_5.Size = UDim2.new(0, 482, 0, 11)
+
+UICorner_20.Parent = _2_5
+
+ScriptInfo_7.Name = "ScriptInfo"
+ScriptInfo_7.Parent = Info_4
+ScriptInfo_7.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_7.BackgroundTransparency = 1
+ScriptInfo_7.Position = UDim2.new(0.381856561, 0, 0.811881185, 0)
+ScriptInfo_7.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_7.Font = Enum.Font.DenkOne
+ScriptInfo_7.Text = "Youtube : Znex Plays"
+ScriptInfo_7.TextColor3 = Color3.new(0, 1, 1)
+ScriptInfo_7.TextSize = 25
+ScriptInfo_7.TextStrokeColor3 = Color3.new(1, 1, 1)
+
+_2_6.Name = "2"
+_2_6.Parent = Info_4
+_2_6.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_6.Position = UDim2.new(-0.0168776363, 0, 0.970297098, 0)
+_2_6.Size = UDim2.new(0, 482, 0, 11)
+
+UICorner_21.Parent = _2_6
+
+_2_7.Name = "2"
+_2_7.Parent = Info_4
+_2_7.BackgroundColor3 = Color3.new(1, 1, 1)
+_2_7.Position = UDim2.new(-0.0105485879, 0, 0.126237646, 0)
+_2_7.Size = UDim2.new(0, 475, 0, 11)
+
+UICorner_22.Parent = _2_7
+
+IstantAccept.Name = "Istant Accept"
+IstantAccept.Parent = Scripts
+IstantAccept.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+IstantAccept.Position = UDim2.new(0.182717189, 0, -0.000296413316, 0)
+IstantAccept.Size = UDim2.new(0, 474, 0, 404)
+IstantAccept.Visible = false
+
+UICorner_23.Parent = IstantAccept
+
+Accept.Name = "Accept"
+Accept.Parent = IstantAccept
+Accept.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+Accept.Position = UDim2.new(0.120253161, 0, 0.43069306, 0)
+Accept.Size = UDim2.new(0, 359, 0, 39)
+Accept.Font = Enum.Font.SourceSans
+Accept.Text = "Accept (Instant)"
+Accept.TextColor3 = Color3.new(0, 0, 0)
+Accept.TextSize = 28
+
+UICorner_24.Parent = Accept
+UICorner_24.CornerRadius = UDim.new(1, 8)
+
+Info_5.Name = "Info"
+Info_5.Parent = IstantAccept
+Info_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Info_5.BackgroundTransparency = 1
+Info_5.Position = UDim2.new(0.289029539, 0, 0.25, 0)
+Info_5.Size = UDim2.new(0, 200, 0, 50)
+Info_5.Font = Enum.Font.Highway
+Info_5.Text = "Beta, Pls  Report Bugs In ZNX#8709"
+Info_5.TextColor3 = Color3.new(1, 1, 1)
+Info_5.TextSize = 32
+
+Info2_3.Name = "Info2"
+Info2_3.Parent = IstantAccept
+Info2_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Info2_3.BackgroundTransparency = 1
+Info2_3.Position = UDim2.new(0.810126603, 0, 0.876237631, 0)
+Info2_3.Size = UDim2.new(0, 84, 0, 50)
+Info2_3.Font = Enum.Font.SourceSans
+Info2_3.Text = "ZNX#8709"
+Info2_3.TextColor3 = Color3.new(1, 1, 1)
+Info2_3.TextSize = 25
+
+ScriptInfo_8.Name = "ScriptInfo"
+ScriptInfo_8.Parent = IstantAccept
+ScriptInfo_8.BackgroundColor3 = Color3.new(1, 1, 1)
+ScriptInfo_8.BackgroundTransparency = 1
+ScriptInfo_8.Position = UDim2.new(0.381856561, 0, 0, 0)
+ScriptInfo_8.Size = UDim2.new(0, 84, 0, 50)
+ScriptInfo_8.Font = Enum.Font.DenkOne
+ScriptInfo_8.Text = "Insane Accept"
+ScriptInfo_8.TextColor3 = Color3.new(1, 1, 1)
+ScriptInfo_8.TextSize = 25
+
+Key.Name = "Key"
+Key.Parent = Script_Scam
+Key.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Key.Position = UDim2.new(0.329959095, 0, 0.225108221, 0)
+Key.Size = UDim2.new(0, 411, 0, 266)
+Key.Active = true
+Key.Draggable = true
+
+UICorner_25.Parent = Key
+
+Password.Name = "Password"
+Password.Parent = Key
+Password.BackgroundColor3 = Color3.new(1, 1, 1)
+Password.Position = UDim2.new(0.126520678, 0, 0.308270693, 0)
+Password.Size = UDim2.new(0, 307, 0, 50)
+Password.Font = Enum.Font.SourceSansItalic
+Password.Text = ""
+Password.TextColor3 = Color3.new(0, 0, 0)
+Password.TextSize = 32
+
+UICorner_26.Parent = Password
+UICorner_26.CornerRadius = UDim.new(1, 8)
+
+xd.Name = "xd"
+xd.Parent = Key
+xd.BackgroundColor3 = Color3.new(1, 1, 1)
+xd.BackgroundTransparency = 1
+xd.Size = UDim2.new(0, 411, 0, 50)
+xd.Font = Enum.Font.SourceSans
+xd.Text = "Key System"
+xd.TextColor3 = Color3.new(0.333333, 1, 0)
+xd.TextSize = 32
+
+-- Key 
+Check.Name = "Check"
+Check.Parent = Key
+Check.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+Check.Position = UDim2.new(0.207567215, 0, 0.577309608, 0)
+Check.Size = UDim2.new(0, 240, 0, 39)
+Check.Font = Enum.Font.SourceSans
+Check.Text = "Check"
+Check.TextColor3 = Color3.new(0, 0, 0)
+Check.TextSize = 28
+Check.MouseButton1Down:Connect(function()
+	if Password.Text == "WxtLc04CgRhV_Znex" or then
+		Checker.Text = "Please Wait ...."
+		wait(2)
+		game.StarterGui:SetCore("SendNotification", {Title = "Correct", Text = "Loading...", Icon = "rbxassetid://12197201394", Duration = 4 })
+		Key.Visible = false
+		Key.Active = false
+		wait(3)
+		Loading.Visible = true
+		_2_8:TweenSize(UDim2.new(0, 300,0, 10),"InOut","Sine",6)
+		--
+		wait(10)
+		Loading.Visible = false
+		Scripts.Visible = true
+		Scripts.Active = true
+                _G.Key = "Kingme9a"
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/PetSimX/main/Mel"))()
+	else
+		Checker.Text = "Please Wait ...."
+		wait(2)
+		game.StarterGui:SetCore("SendNotification", {Title = "Fake", Text = "Loading...", Icon = "rbxassetid://12197201394", Duration = 4 })
+		Checker.Text = "Checker"
+	end
+end)
+
+UICorner_27.Parent = Check
+UICorner_27.CornerRadius = UDim.new(1, 8)
+
+Checker.Name = "Checker"
+Checker.Parent = Key
+Checker.BackgroundColor3 = Color3.new(1, 1, 1)
+Checker.BackgroundTransparency = 1
+Checker.Position = UDim2.new(0.384428203, 0, 0.812030077, 0)
+Checker.Size = UDim2.new(0, 95, 0, 50)
+Checker.Font = Enum.Font.SourceSans
+Checker.Text = "Checker"
+Checker.TextColor3 = Color3.new(1, 1, 1)
+Checker.TextSize = 25
+
+Loading.Name = "Loading"
+Loading.Parent = Script_Scam
+Loading.BackgroundColor3 = Color3.new(0, 0, 0)
+Loading.Selectable = true
+Loading.Size = UDim2.new(0, 1438, 0, 630)
+Loading.Visible = false
+
+Loading_2.Name = "Loading"
+Loading_2.Parent = Loading
+Loading_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Loading_2.BackgroundTransparency = 1
+Loading_2.Position = UDim2.new(0.371349096, 0, 0.450505048, 0)
+Loading_2.Size = UDim2.new(0, 200, 0, 25)
+Loading_2.Font = Enum.Font.Bangers
+Loading_2.Text = "Data Check ... (Pls wait)"
+Loading_2.TextColor3 = Color3.new(1, 1, 1)
+Loading_2.TextSize = 19
+
+_1_3.Name = "1"
+_1_3.Parent = Loading
+_1_3.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+_1_3.Position = UDim2.new(0.336738974, 0, 0.506956398, 0)
+_1_3.Size = UDim2.new(0, 300, 0, 7)
+
+_2_8.Name = "2"
+_2_8.Parent = _1_3
+_2_8.BackgroundColor3 = Color3.new(0, 1, 1)
+_2_8.Position = UDim2.new(-0.00326110842, 0, -0.52637589, 0)
+_2_8.Size = UDim2.new(0, 0, 0, 10)
+
+User.Name = "User"
+User.Parent = Loading
+User.BackgroundColor3 = Color3.new(1, 1, 1)
+User.BackgroundTransparency = 1
+User.Position = UDim2.new(0.371349096, 0, 0.545743167, 0)
+User.Size = UDim2.new(0, 200, 0, 25)
+User.Font = Enum.Font.Bangers
+User.Text = "Hi "..username..", This May  Take Few Seconds. Don't Leave The Game Until loading, Completed"
+User.TextColor3 = Color3.new(1, 1, 1)
+User.TextSize = 19
